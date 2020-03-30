@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://gilwasser.github.io/Corona",
+  "homepage": "https://gilwasser.github.io/Corona",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
