@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 .App {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 360px;
+}
+
+.hide{
+  display: none;
+}
+
+.voting{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vote{
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: 1.2px solid black;
+  height: fit-content;
+  border-radius:5px ;
+  padding: 10px;
+}
+
+.left{
+  text-align: left;
+}
+
+.share{
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: 1.2px solid black;
+  height: fit-content;
+  align-self: center;
+  border-radius:5px ;
+  padding: 10px;
+  background-color: palevioletred;
 }
 
 .App-logo {

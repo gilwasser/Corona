@@ -1,0 +1,10 @@
+.popular-problems {
+    text-align: left;
+    /* width: 300px; */
+    margin-bottom: 30px;
+
+}
+
+.popular-problems p{
+    padding-left: 15px;
+}

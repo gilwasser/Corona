@@ -1,0 +1,9 @@
+.VotePage .hide p{
+    display: none;
+}
+
+
+.vote-button {
+    align-self: flex-end;
+    margin-bottom:20px;
+}

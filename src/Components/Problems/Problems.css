@@ -1,0 +1,46 @@
+.problem{
+    display: flex;
+    width:100% ;
+}
+.flexed{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+
+
+.problem-box{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+input{
+    align-self: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+p {
+    align-self: center;
+    margin: 5px;
+}
+
+.problems{
+    display: flex;
+    width: 100%;
+}
+
+
+.end {
+    justify-self: flex-end;
+}
+

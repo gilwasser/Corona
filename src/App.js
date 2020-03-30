@@ -1,26 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
+import VotePage from './Components/VotePage/VotePage'
+import ResultPage from './Components/ResultPage/ResultPage'
+
+import problems from './problems.json'
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    
+  constructor(){
+    super()
+    this.state = {
+      route: "vote"
+    }
+  }
+
+  onRouteChange = (route) => {
+    this.setState({route: route});
+  }
+
+  render(){
+    return (
+      <div className="App">
+
+
+
+
+        {/* component 1 */}
+        {
+          this.state.route === "vote"
+            ? <VotePage onRouteChange={this.onRouteChange}/>
+            :<ResultPage onRouteChange={this.onRouteChange}/>
+        }
+      
+
+        {/* component 2 */}
+        {/* <div className="voting">
+          <button className='vote'>vote</button>
+          <button className='share'>share</button>
+        </div>
+        <p className='left'>View the most crucial challenges</p>
+        <UrgencyTable />
+        <PopularProblems /> */}
+        
+        
+
+      </div>
+    );
+      }
 }
 
 export default App;

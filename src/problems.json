@@ -1,0 +1,48 @@
+{
+    "problems": 
+    [
+        {
+            "id": 0,
+            "problem":"Not enugh test kits",
+            "content":"something to say about the problem",
+            "experts":{
+                "now":0,
+                "near":0,
+                "far":0
+            },
+            "amatures":{
+                "now":0,
+                "near":0,
+                "far":0
+            },
+            "public":{
+                "now":0,
+                "near":0,
+                "far":0
+            }
+            
+        },
+        {
+            "id": 1,
+            "problem":"uneployment",
+            "content":"something to say about the problem",
+            "experts":{
+                "now":0,
+                "near":0,
+                "far":0
+            },
+            "amatures":{
+                "now":0,
+                "near":0,
+                "far":0
+            },
+            "public":{
+                "now":0,
+                "near":0,
+                "far":0
+            }
+            
+        }
+
+    ]
+}
