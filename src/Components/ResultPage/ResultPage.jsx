@@ -16,6 +16,7 @@ class ResultPage extends React.Component  {
     }
 
     onRouteChange = (route) => {
+
         this.setState({route:route})
     }
 
